@@ -1,0 +1,42 @@
+<?php
+
+/**
+ * Global configuration
+ * 
+ *@author satriaprayoga 
+ */
+
+/**
+ *website configuration 
+ */
+
+define('DEFAULT_HOME', 'home');
+define('TEMPLATE_DIR', SITE_PATH . 'template/');
+define('URL','http://localhost/berlatih-demo/');
+define('PUBLIC_DIR', URL. 'public/');
+define('CSS_DIR',PUBLIC_DIR.'css/');
+define('JS_DIR',PUBLIC_DIR.'js/');
+define('IMG_DIR',PUBLIC_DIR.'images/');
+
+/**
+ *database configuration 
+ */
+define('DB_TYPE','mysql');
+define('DB_HOST','localhost');
+define('DB_NAME','berlatih_demo');
+define('DB_USERNAME','root');
+define('DB_PASSWORD','asdqwe123');
+
+/**
+ * Hash configuration 
+ */
+define('HASH_KEY','i3annaekmobilma2zdaanmaketopime2ksikoan');
+
+
+function baseUrl(){
+    return URL;
+}
+
+function assets(){
+    return PUBLIC_DIR;
+}

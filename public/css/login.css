@@ -1,0 +1,62 @@
+/* 
+    Document   : login.css
+    Created on : Jul 22, 2012, 7:43:56 PM
+    Author     : satriaprayoga
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.login{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #87CEFA;
+}
+
+.login .container {
+    color:#1F1F1F;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 425px;
+}
+.login .container h3 {
+    border: none;
+    padding: 10px 0px 10px 20px;
+    background-color: #3B3B3B;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: #fff;
+
+}
+
+.login .container form {
+
+    background-color: #F2F2F2;
+    color: #2E2E2E;
+    border: solid 1px #d8d8d8;
+    padding: 20px 20px 40px 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-bottom-left-radius: 5px;
+    -moz-border-bottom-right-radius: 5px;
+}
+
+.login .container form label {
+    font-size: 14px;
+    color: #000;
+}
+
+.login .container form input {
+    background: #464646;
+    border: solid 1px #545252;
+    -webkit-box-shadow: inset #2d2d2d 1px 0px 3px;
+    -moz-box-shadow: inset #2d2d2d 1px 0px 3px;
+    box-shadow: inset #2d2d2d 1px 0px 3px;
+    color: #8b7b6c;
+}
+.login .container form input[type=text], .login form input[type=password] {
+    width: 365px;
+    font-size: 20px;
+    padding: 10px;
+}
