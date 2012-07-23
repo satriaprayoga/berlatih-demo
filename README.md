@@ -15,4 +15,5 @@ and for Twitter Bootstrap [here](https://github.com/twitter/bootstrap/)
 how to
 ==============
 before run this demo, make sure the database is created, if not you can run the mysql script **berlatih_demo.sql** located in the
-root of this repository, dont forget to change the database username and password inside **configs/config.php**.
+root of this repository, dont forget to change the database username and password inside **configs/config.php**. and then point
+your browser to http://yourhostnameorip/berlatih-demo/dashboar
