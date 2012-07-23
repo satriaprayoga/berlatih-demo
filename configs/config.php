@@ -24,8 +24,8 @@ define('IMG_DIR',PUBLIC_DIR.'images/');
 define('DB_TYPE','mysql');
 define('DB_HOST','localhost');
 define('DB_NAME','berlatih_demo');
-define('DB_USERNAME','root');
-define('DB_PASSWORD','asdqwe123');
+define('DB_USERNAME','');
+define('DB_PASSWORD','');
 
 /**
  * Hash configuration 
